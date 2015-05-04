@@ -3,6 +3,9 @@
 var app = angular.module("coreAngular");
 
 var QuestionController = function($scope, $location, $rootScope, $routeParams) {
+    if ($rootScope.resultSet === undefined){
+        $location.path("/main");    
+    }
     var questionNo = parseInt($routeParams.questionNo);
     var currentQuestion = $rootScope.questions[questionNo-1];
     $scope.progress = questionNo;

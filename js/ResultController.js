@@ -3,8 +3,10 @@
 var app = angular.module("coreAngular");
 
 var ResultController = function($scope, $location, $rootScope) {
+    if ($rootScope.resultSet === undefined){
+        $location.path("/main");    
+    }
     $scope.resultTemplate = calculateScore($scope, $rootScope);
-    
 };
 
 var calculateScore = function($scope, $rootScope){
