@@ -1,0 +1,190 @@
+smallTestQuestionData = '[                                                  '+
+'    {                                                                      '+
+'        "question_id" : "1",                                               '+
+'        "question_text" : "I have felt terribly alone and isolated",       '+
+'        "question_asc" : "true",                                           '+
+'        "question_dimension" : "F"                                         '+
+'    },                                                                     '+
+'    {                                                                      '+
+'        "question_id" : "2",                                               '+
+'        "question_text" : "I have felt tense, anxious or nervous",         '+
+'        "question_asc" : "false",                                          '+
+'        "question_dimension" : "P"                                         '+
+'    }                                                                      '+
+']';
+
+
+questionData = '[                                                                           '+
+'    {                                                                                      '+
+'        "question_id" : "1",                                                               '+
+'        "question_text" : "I have felt terribly alone and isolated",                       '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "f"                                                         '+
+'    },                                                                                     '+
+'    {                                                                                      '+
+'        "question_id" : "2",                                                               '+
+'        "question_text" : "I have felt tense, anxious or nervous",                         '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'    },                                                                                     '+
+'	{"question_id" : "3",                                                                   '+
+'        "question_text" : "I have felt I have someone to turn to for support when needed", '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "4",                                                                   '+
+'        "question_text" : "I have felt O.K. about myself",                                 '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "w"                                                         '+
+'	},                                                                                      '+  
+'	{"question_id" : "5",                                                                   '+  
+'        "question_text" : "I have felt totally lacking in energy and enthusiasm",          '+
+'       "question_asc" : "true",                                                            '+
+'        "question_dimension" : "P"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "6",                                                                   '+
+'        "question_text" : "I have been physically violent to others",                      '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "r"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "7",                                                                   '+
+'        "question_text" : "I have felt able to cope when things go wrong",                 '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "8",                                                                   '+      
+'        "question_text" : "I have been troubled by aches, pains or other physical problems", '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "9",                                                                   '+
+'        "question_text" : "I have thought of hurting myself",                              '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "r"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "10",                                                                  '+
+'        "question_text" : "Talking to people has felt too much for me",                    '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "11",                                                                  '+
+'        "question_text" : "Tension and anxiety have prevented me doing important things",  '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "12",                                                                  '+
+'        "question_text" : "I have been happy with the things I have done",                 '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "13",                                                                  '+
+'        "question_text" : "I have been disturbed by unwanted thoughts and feelings",       '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "14",                                                                  '+
+'        "question_text" : "I have felt like crying",                                       '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "w"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "15",                                                                  '+
+'        "question_text" : "I have felt panic or terror",                                   '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "16",                                                                  '+
+'        "question_text" : "I made plans to end my life",                                   '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "r"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "17",                                                                  '+
+'        "question_text" : "I have felt overwhelmed by my problems",                        '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "w"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "18",                                                                  '+
+'        "question_text" : "I have had difficulty getting to sleep or staying asleep",      '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "19",                                                                  '+
+'        "question_text" : "I have felt warmth or affection for someone",                   '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "20",                                                                  '+
+'        "question_text" : "My problems have been impossible to put to one side",           '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "21",                                                                  '+
+'        "question_text" : "I have been able to do most things I needed to",                '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "22",                                                                  '+
+'        "question_text" : "I have threatened or intimidated another person",               '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "r"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "23",                                                                  '+
+'        "question_text" : "I have felt despairing or hopeless",                            '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "24",                                                                  '+
+'        "question_text" : "I have thought it would be better if I were dead",              '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "r"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "25",                                                                  '+
+'        "question_text" : "I have felt criticised by other people",                        '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "26",                                                                  '+
+'        "question_text" : "I have thought I have no friends",                              '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "27",                                                                  '+  
+'        "question_text" : "I have felt unhappy",                                           '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "28",                                                                  '+
+'        "question_text" : "Unwanted images or memories have been distressing me",          '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "29",                                                                  '+
+'        "question_text" : "I have been irritable when with other people",                  '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "30",                                                                  '+
+'        "question_text" : "I have thought I am to blame for my problems and difficulties", '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "p"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "31",                                                                  '+
+'        "question_text" : "I have felt optimistic about my future",                        '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "w"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "32",                                                                  '+
+'        "question_text" : "I have achieved the things I wanted to",                        '+
+'        "question_asc" : "false",                                                          '+
+'        "question_dimension" : "w"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "33",                                                                  '+
+'        "question_text" : "I have felt humiliated or shamed by other people",              '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "f"                                                         '+
+'	},                                                                                      '+
+'	{"question_id" : "34",                                                                  '+
+'        "question_text" : "I have hurt myself physically or taken dangerous risks with my health", '+
+'        "question_asc" : "true",                                                           '+
+'        "question_dimension" : "r"                                                         '+
+'	}                                                                                       '+
+']';                                                    

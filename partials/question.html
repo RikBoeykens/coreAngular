@@ -1,0 +1,19 @@
+<div align="center" id="questions" class="center">
+    <form>
+        <br/>
+        <div id="questionDiv">
+            {{question}}
+        </div>
+        
+        <feelingslider slider-value="slider"></feelingslider>
+        
+        <div class="center">
+            <br />
+            <input type ="button" value="Next" id="nextButton" ng-click="nextQuestion()">  
+            <br/>
+        </div>
+    </form>
+
+    <progress id="progressBar" value="{{progress}}" max="{{maxProgress}}">
+
+</div>

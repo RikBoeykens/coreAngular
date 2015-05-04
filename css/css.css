@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat); 
+#title
+{
+
+	width:90%;
+	margin-bottom:5;
+	margin-top:5;
+}
+
+#questions
+{
+	background-color:#00ed27;
+	width:100%;
+	height:80%;
+	border:1px solid;
+	border-radius:25px;
+	font-family:Montserrat;
+}
+
+#explanationDiv
+{
+	color:white;
+}
+
+#questionDiv
+{
+    height: 20px;
+}
+
+#nextButton
+{
+	background-color:white;
+	color:black;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:30px;
+	line-height:30px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:150px;
+	height:60px
+
+}
+#slider
+{
+	width:90%;
+	height:50px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#intro
+{
+	width:100%;
+	height:80px;
+	text-align:center;
+	font-family:Montserrat;
+}
+
+#n
+{
+	font-size:15;
+}
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.a
+{
+	text-decoration:none;
+}
+
+#men
+{
+	background-color:#00ed27;
+	width:100%;
+	height:50%;
+	border:1px solid;
+	border-radius:25px;
+	font-family:Montserrat;
+}
+#healthyLevel
+{
+    background-color:#1CFF00;
+}
+#lowLevel
+{
+    background-color:#1C8E00;
+}
+#mildLevel
+{
+    background-color:#FFFF00;
+}
+#moderateLevel
+{
+    background-color:#FF7519;
+}
+#moderateToSeverLevel
+{
+    background-color:#FF2800;
+}
+#riskLevel
+{
+    background-color:#f1c40f;
+}
+#severeLevel
+{
+    background-color:#A11900;
+}
