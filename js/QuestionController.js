@@ -10,21 +10,20 @@ var QuestionController = function($scope, $location, $rootScope, $routeParams) {
     var currentQuestion = $rootScope.questions[questionNo-1];
     $scope.progress = questionNo;
     $scope.maxProgress = $rootScope.questions.length;
-    
     $scope.question = currentQuestion.question_text;
-        
     $scope.slider = 0;
 
     $scope.nextQuestion = function(){
-        recordResult();
+        recordResult($rootScope.resultSet.Points);
         if (questionNo<$rootScope.questions.length){
             $location.path("/question/"+(questionNo+1));
         }else{
+            $rootScope.resultSet.Info.EndTime = new Date();
             $location.path("/result");
         }
     }
     
-    var recordResult = function(){
+    var recordResult = function(Points){
         var currentResult = parseInt($scope.slider);
         //if question uses 4-0 then change accordingly
         if (currentQuestion.question_asc=="false"){
@@ -33,13 +32,13 @@ var QuestionController = function($scope, $location, $rootScope, $routeParams) {
         //increase correct part of resultset
         var currentDimension = currentQuestion.question_dimension;
         if (currentDimension.toUpperCase()=='W'){
-            $rootScope.resultSet.WellBeing+=currentResult;
+            Points.WellBeing+=currentResult;
         }else if(currentDimension.toUpperCase()=='P'){
-            $rootScope.resultSet.Problems+=currentResult;
+            Points.Problems+=currentResult;
         }else if(currentDimension.toUpperCase()=='F'){
-            $rootScope.resultSet.Functioning+=currentResult;
+            Points.Functioning+=currentResult;
         }else if(currentDimension.toUpperCase()=='R'){
-            $rootScope.resultSet.Risk+=currentResult;
+            Points.Risk+=currentResult;
         }
     }
 };

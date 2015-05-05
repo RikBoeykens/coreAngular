@@ -2,7 +2,11 @@
     <div align="center" id="info">
         <p>There are 34 statements about how you have been OVER THE LAST WEEK. Please read each statement and think how often you felt that way last week. Then use the slider to select the most appropriate answer.</p> 
     </div>
-
-    <input type="button" id="startQuiz" value="Start" ng-click="startQuiz()">
+    <form name="nameForm" novalidate>
+        <label>Name:</label>
+        <input type="text" id="nameField" name="username" ng-model="username" required />
+        <br>
+        <input type="button" id="startQuiz" value="Start" ng-click="startQuiz()" ng-disabled="nameForm.username.$invalid">
+    </form>
 
 </div>
